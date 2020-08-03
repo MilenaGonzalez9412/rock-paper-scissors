@@ -1,0 +1,47 @@
+body {
+  background-image: url(./assets/images/background.jpg);
+}
+
+.start-game-button{
+  align-self: center;
+}
+
+.result{
+  color: aqua;
+  display: flex;
+  justify-content: center;
+}
+
+.scores {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.score-user{
+    margin-right:40px;
+}
+
+.score-computer{
+    margin-left: 40px;
+}
+
+.game-title {
+  color: white;
+  text-align: center;
+}
+
+.icon {
+  width: 150px;
+  transition-duration: 1s;
+}
+
+.icon:hover{
+  width: 200px;
+}
+
+.hand-options{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
